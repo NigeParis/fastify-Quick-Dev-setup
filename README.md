@@ -20,15 +20,15 @@ Makefile Targets
 ```makefile
 Here’s a summary of all available make commands:
 
-setup   - Initializes project and installs dependencies  
-dev     - Runs the dev server with tsx  
-run     - Runs the compiled server  
+setup   - Initializes project and installs dependencies and copies TS fie from SetupSrc Folder 
+dev     - Runs the dev project with tsx  
+run     - Runs the compiled project  
 build   - Compiles TypeScript and prepares dist/public  
-save    - Saves current source files to SetupSrc/  
+save    - Saves current source files to SetupSrc/ NB delete old Setup src fies  
 load    - Restores source files from SetupSrc/  
 reset   - Cleans and re-runs setup  
-empty   - Deletes all files and dependencies  
-all     - Builds and runs the server  
+empty   - Deletes all files and dependencies leaving only setup files 
+all     - Builds and runs the project  
 ```
 Development Workflow
 

@@ -6,7 +6,8 @@ Makefile Targets
 ```makefile
 Here’s a summary of all available make commands:
 
-setup   - Initializes project and installs dependencies and copies TS files from SetupSrc Folder 
+setup   - Initializes project and installs dependencies 
+        - and installs simple helloworld ts file in src Folder 
 dev     - Runs the dev project with tsx  
 run     - Runs the compiled project  
 build   - Compiles TypeScript and prepares dist/public  

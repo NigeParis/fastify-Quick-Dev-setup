@@ -17,7 +17,7 @@ This will:
 - Add a starter index.ts file
 
 Makefile Targets
-
+```makefile
 Here’s a summary of all available make commands:
 
 setup   - Initializes project and installs dependencies  
@@ -29,7 +29,7 @@ load    - Restores source files from SetupSrc/
 reset   - Cleans and re-runs setup  
 empty   - Deletes all files and dependencies  
 all     - Builds and runs the server  
-
+```
 Development Workflow
 
 Run the development server with auto-reload:

@@ -15,6 +15,7 @@ save    - Saves current source files to SetupSrc/ NB caution - deletes old Setup
 load    - Restores source files from SetupSrc/ to src/  
 reset   - Cleans and re-runs the setup  
 empty   - Deletes all files and dependencies leaving only setup files and makefile
+make    - Builds and runs the project from src folder
 all     - Builds and runs the project from src folder
 ```
 

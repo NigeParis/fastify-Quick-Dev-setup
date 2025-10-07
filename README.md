@@ -20,22 +20,25 @@ all     - Builds and runs the project from src folder
 ```
 
 
-File Structure After Setup
+File Structure After Setup and Build
 
 ```bash
-test_websocket/
-├── src/
-│   └── index.ts
+test_project/
 ├── dist/
 │   └── public/
+├   └── index.js
+├── node_modues
 ├── SetupSrc/
 │   └── *.ts
+├── src/
+│   └── index.ts
+├── Makefile
+├── package-lock.json
+├── package.json
+├── README.md
 ├── SetupPackage.json
 ├── SetupTsconfig.json
-├── package.json
 ├── tsconfig.json
-├── Makefile
-└── test.txt
 ```
 
 Note: This setup is intended purely for experimentation with Fastify and TypeScript. 

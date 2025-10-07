@@ -1,8 +1,13 @@
-##This project uses Fastify with TypeScript and WebSocket support. 
-It includes a Makefile to automate setup, 
+#Fastify and typescript basic experimental setup
+
+##This project uses Fastify with TypeScript. 
+It includes a simple Makefile to automate setup, 
 development, build, and cleanup tasks.
 
-Makefile Targets
+A simple basic starting point for experimentations with fastify
+
+###Makefile Targets
+
 ```makefile
 Here’s a summary of all available make commands:
 

@@ -1,5 +1,7 @@
 
-This project uses Fastify with TypeScript and WebSocket support. <\br> It includes a Makefile to automate setup, development, build, and cleanup tasks.
+This project uses Fastify with TypeScript and WebSocket support. 
+It includes a Makefile to automate setup, 
+development, build, and cleanup tasks.
 
 Project Setup
 

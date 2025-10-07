@@ -11,11 +11,11 @@ setup   - Initializes project and installs dependencies
 dev     - Runs the dev project with tsx  
 run     - Runs the compiled project  
 build   - Compiles TypeScript and prepares dist/public  
-save    - Saves current source files to SetupSrc/ NB delete old Setup src fies  
-load    - Restores source files from SetupSrc/  
-reset   - Cleans and re-runs setup  
-empty   - Deletes all files and dependencies leaving only setup files 
-all     - Builds and runs the project  
+save    - Saves current source files to SetupSrc/ NB caution - deletes old Setup src files  
+load    - Restores source files from SetupSrc/ to src/  
+reset   - Cleans and re-runs the setup  
+empty   - Deletes all files and dependencies leaving only setup files and makefile
+all     - Builds and runs the project from src folder
 ```
 
 

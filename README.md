@@ -81,6 +81,7 @@ This will:
 
 File Structure After Setup
 
+```bash
 test_websocket/
 ├── src/
 │   └── index.ts
@@ -94,7 +95,7 @@ test_websocket/
 ├── tsconfig.json
 ├── Makefile
 └── test.txt
-
+```
 Dependencies Installed
 
 Core:
@@ -105,9 +106,11 @@ npm install --save-dev typescript tsx pino-pretty @types/ws
 
 Summary
 
+```
 This project is a Fastify + TypeScript WebSocket server with a fully automated Makefile workflow. It supports:
 - One-command setup
 - Live development with tsx
 - Structured logging via pino-pretty
 - Easy file saving/loading
 - Full cleanup and reset
+```

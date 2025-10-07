@@ -6,7 +6,7 @@ Makefile Targets
 ```makefile
 Here’s a summary of all available make commands:
 
-setup   - Initializes project and installs dependencies and copies TS fie from SetupSrc Folder 
+setup   - Initializes project and installs dependencies and copies TS files from SetupSrc Folder 
 dev     - Runs the dev project with tsx  
 run     - Runs the compiled project  
 build   - Compiles TypeScript and prepares dist/public  
@@ -35,3 +35,7 @@ test_websocket/
 ├── Makefile
 └── test.txt
 ```
+
+Note: This setup is intended purely for experimentation with Fastify and TypeScript. 
+It's a lightweight scaffold to explore features, 
+test ideas, and get familiar with the development workflow.
